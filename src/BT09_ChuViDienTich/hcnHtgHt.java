@@ -7,7 +7,6 @@ public class hcnHtgHt {
         Scanner scanner = new Scanner(System.in);
         //Khai báo biến choice để ghi nhớ lựa chọn của người dùng.
         int choice;
-
        //Sử dụng vòng lặp while để hiển thị menu như yêu cầu và cho phép người dùng nhập lựa chọn của họ.
         do {
             System.out.println("1. Chu vi và dien tich hcn");
@@ -25,8 +24,8 @@ public class hcnHtgHt {
                     chieuRong = scanner.nextInt();
                     int ChuViHCN = ((chieuDai + chieuRong) * 2);
                     int DienTichHCN = (chieuDai * chieuRong);
-                    System.out.println("Chu vi hcn là:" + ChuViHCN);
-                    System.out.println("Dien tich hcn là:" + DienTichHCN);
+                    System.out.println("Chu vi hcn là: " + ChuViHCN);
+                    System.out.println("Dien tich hcn là: " + DienTichHCN);
                     break;
                 case 2:
                     int canhA, canhB, canhC;
@@ -47,10 +46,11 @@ public class hcnHtgHt {
                     System.out.println("Mời nhập bán kính:");
                     R = scanner.nextDouble();
                     double chuViHT = (2 * Math.PI * R);
+                    int ChuViHT = (int)chuViHT;
                     double DienTichHT = (Math.PI * R * R);
                     int dienTichHT = (int)DienTichHT;
-                    System.out.println("Chu vi ht" + chuViHT );
-                    System.out.println("Dien tich ht" + dienTichHT );
+                    System.out.println("Chu vi ht " + ChuViHT );
+                    System.out.println("Dien tich ht " + dienTichHT );
                     break;
                 case 4:
                     System.out.println("Thoat");
@@ -61,6 +61,5 @@ public class hcnHtgHt {
             }
         } while (choice!= 4);
         scanner.close();
-
     }
 }

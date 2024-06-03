@@ -10,34 +10,34 @@ public class chuSo {
         a = scanner.nextInt();
         switch (a) {
             case 0:
-                System.out.println("Số 0");
+                System.out.println("Số không");
                 break;
             case 1:
-                System.out.println("Số 1");
+                System.out.println("Số một");
                 break;
             case 2:
-                System.out.println("Số 2");
+                System.out.println("Số hai");
                 break;
             case 3:
-                System.out.println("Số 3");
+                System.out.println("Số ba");
                 break;
             case 4:
-                System.out.println("Số 4");
+                System.out.println("Số bốn");
                 break;
             case 5:
-                System.out.println("Số 5");
+                System.out.println("Số năm");
                 break;
             case 6:
-                System.out.println("Số 6");
+                System.out.println("Số sáu");
                 break;
             case 7:
-                System.out.println("Số 7");
+                System.out.println("Số bảy");
                 break;
             case 8:
-                System.out.println("Số 8");
+                System.out.println("Số tám");
                 break;
             case 9:
-                System.out.println("Số 9");
+                System.out.println("Số chín");
                 break;
             default:
                 System.out.println("Không có số trong dãy từ 0 - 9");
